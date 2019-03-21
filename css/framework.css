@@ -1,0 +1,79 @@
+p span, p a {
+  color: #000000; }
+
+body {
+  color: #555555; }
+
+.wrapper {
+  width: 1000px;
+  margin: 20px auto;
+  color: #676767; }
+
+.body_text {
+  position: relative;
+  margin-bottom: 25px;
+  margin-right: 25px; }
+
+.main_photo {
+  text-align: right; }
+
+.main_text {
+  width: 350px;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  background-color: #efefef;
+  padding: 25px 35px; }
+  .main_text span {
+    font-size: 30px; }
+
+.column_block {
+  display: flex;
+  justify-content: space-evenly; }
+
+.column_text {
+  font-weight: bold; }
+  .column_text span {
+    font-size: 20px; }
+
+.web_link {
+  font-weight: normal;
+  text-decoration: underline; }
+
+.full_width_img {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .column_block {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .main_photo {
+    text-align: unset; }
+    .main_photo img {
+      width: 100%; }
+
+  .main_text {
+    position: unset;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px; }
+
+  .tablet_column {
+    display: flex;
+    flex-flow: row-reverse; }
+
+  .body_photo {
+    width: 150%; }
+
+  .body_text {
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-bottom: solid;
+    border-color: #676767; }
+
+  .column_text {
+    padding-right: 45px; } }
+
+/*# sourceMappingURL=framework.css.map */
